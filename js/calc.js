@@ -284,6 +284,7 @@ function gradeCheck(score) {
 }
 
 function formClear() {
+
   document.getElementById("totalVolforce").innerHTML = "";
   document.getElementById("volforce_1").innerHTML = "";
   document.getElementById("volforce_2").innerHTML = "";
@@ -307,46 +308,67 @@ function formClear() {
   document.getElementById("volforce_20").innerHTML = "";
   document.getElementById("wawa").innerHTML="";
 
-  document.getElementById("chartScore_1").value = NaN;
-  document.getElementById("chartScore_2").value = NaN;
-  document.getElementById("chartScore_3").value = NaN;
-  document.getElementById("chartScore_4").value = NaN;
-  document.getElementById("chartScore_5").value = NaN;
-  document.getElementById("chartScore_6").value = NaN;
-  document.getElementById("chartScore_7").value = NaN;
-  document.getElementById("chartScore_8").value = NaN;
-  document.getElementById("chartScore_9").value = NaN;
-  document.getElementById("chartScore_10").value = NaN;
-  document.getElementById("chartScore_11").value = NaN;
-  document.getElementById("chartScore_12").value = NaN;
-  document.getElementById("chartScore_13").value = NaN;
-  document.getElementById("chartScore_14").value = NaN;
-  document.getElementById("chartScore_15").value = NaN;
-  document.getElementById("chartScore_16").value = NaN;
-  document.getElementById("chartScore_17").value = NaN;
-  document.getElementById("chartScore_18").value = NaN;
-  document.getElementById("chartScore_19").value = NaN;
-  document.getElementById("chartScore_20").value = NaN;
+  document.getElementById("chartName1").value = "";
+  document.getElementById("chartName2").value = "";
+  document.getElementById("chartName3").value = "";
+  document.getElementById("chartName4").value = "";
+  document.getElementById("chartName5").value = "";
+  document.getElementById("chartName6").value = "";
+  document.getElementById("chartName7").value = "";
+  document.getElementById("chartName8").value = "";
+  document.getElementById("chartName9").value = "";
+  document.getElementById("chartName10").value = "";
+  document.getElementById("chartName11").value = "";
+  document.getElementById("chartName12").value = "";
+  document.getElementById("chartName13").value = "";
+  document.getElementById("chartName14").value = "";
+  document.getElementById("chartName15").value = "";
+  document.getElementById("chartName16").value = "";
+  document.getElementById("chartName17").value = "";
+  document.getElementById("chartName18").value = "";
+  document.getElementById("chartName19").value = "";
+  document.getElementById("chartName20").value = "";
 
-  document.getElementById("chartLevel_1").value = NaN;
-  document.getElementById("chartLevel_2").value = NaN;
-  document.getElementById("chartLevel_3").value = NaN;
-  document.getElementById("chartLevel_4").value = NaN;
-  document.getElementById("chartLevel_5").value = NaN;
-  document.getElementById("chartLevel_6").value = NaN;
-  document.getElementById("chartLevel_7").value = NaN;
-  document.getElementById("chartLevel_8").value = NaN;
-  document.getElementById("chartLevel_9").value = NaN;
-  document.getElementById("chartLevel_10").value = NaN;
-  document.getElementById("chartLevel_11").value = NaN;
-  document.getElementById("chartLevel_12").value = NaN;
-  document.getElementById("chartLevel_13").value = NaN;
-  document.getElementById("chartLevel_14").value = NaN;
-  document.getElementById("chartLevel_15").value = NaN;
-  document.getElementById("chartLevel_16").value = NaN;
-  document.getElementById("chartLevel_17").value = NaN;
-  document.getElementById("chartLevel_18").value = NaN;
-  document.getElementById("chartLevel_19").value = NaN;
-  document.getElementById("chartLevel_20").value = NaN;
+  document.getElementById("chartScore_1").value = "";
+  document.getElementById("chartScore_2").value = "";
+  document.getElementById("chartScore_3").value = "";
+  document.getElementById("chartScore_4").value = "";
+  document.getElementById("chartScore_5").value = "";
+  document.getElementById("chartScore_6").value = "";
+  document.getElementById("chartScore_7").value = "";
+  document.getElementById("chartScore_8").value = "";
+  document.getElementById("chartScore_9").value = "";
+  document.getElementById("chartScore_10").value = "";
+  document.getElementById("chartScore_11").value = "";
+  document.getElementById("chartScore_12").value = "";
+  document.getElementById("chartScore_13").value = "";
+  document.getElementById("chartScore_14").value = "";
+  document.getElementById("chartScore_15").value = "";
+  document.getElementById("chartScore_16").value = "";
+  document.getElementById("chartScore_17").value = "";
+  document.getElementById("chartScore_18").value = "";
+  document.getElementById("chartScore_19").value = "";
+  document.getElementById("chartScore_20").value = "";
+
+  document.getElementById("chartLevel_1").value = "";
+  document.getElementById("chartLevel_2").value = "";
+  document.getElementById("chartLevel_3").value = "";
+  document.getElementById("chartLevel_4").value = "";
+  document.getElementById("chartLevel_5").value = "";
+  document.getElementById("chartLevel_6").value = "";
+  document.getElementById("chartLevel_7").value = "";
+  document.getElementById("chartLevel_8").value = "";
+  document.getElementById("chartLevel_9").value = "";
+  document.getElementById("chartLevel_10").value = "";
+  document.getElementById("chartLevel_11").value = "";
+  document.getElementById("chartLevel_12").value = "";
+  document.getElementById("chartLevel_13").value = "";
+  document.getElementById("chartLevel_14").value = "";
+  document.getElementById("chartLevel_15").value = "";
+  document.getElementById("chartLevel_16").value = "";
+  document.getElementById("chartLevel_17").value = "";
+  document.getElementById("chartLevel_18").value = "";
+  document.getElementById("chartLevel_19").value = "";
+  document.getElementById("chartLevel_20").value = "";
 
 }
